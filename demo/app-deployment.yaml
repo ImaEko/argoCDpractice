@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: engdemo
-  replicas: 4 # will change this deployment to run 4 pods
+  replicas: 2 # will change this deployment to run 4 pods
   template:
     metadata:
       labels:

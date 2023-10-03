@@ -19,4 +19,5 @@ spec:
 
     automated:
       selfHeal: true # remove overwite function
-      prune: true
+      prune: false
+      

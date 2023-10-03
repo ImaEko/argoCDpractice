@@ -15,9 +15,9 @@ spec:
 
   syncPolicy:
     syncOptions:
-    - CreateNamespace=false # switch this
+    - CreateNamespace=false 
 
     automated:
-      selfHeal: true # remove overwite function
-      prune: false
+      selfHeal: true 
+      prune: true
       
